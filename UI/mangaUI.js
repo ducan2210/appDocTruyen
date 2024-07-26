@@ -54,8 +54,12 @@ export default function MangaUI() {
     <View style={styles.container}>
       <View style={{ marginTop: 15, backgroundColor: '#fff', flexDirection: 'row', alignItems: 'center' }}>
         <Image
-          source={require('../images/Avatar.png')}
-          style={{ width: 58, height: 58, backgroundColor: 'red', borderRadius: 100 }}
+          source={require('../images/Layer.png')}
+          style={{
+            width: 58,
+            height: 58,
+            borderRadius: 100,
+          }}
         />
         <Text style={{ fontWeight: 'bold', fontSize: 22, marginLeft: 21 }}>An Nguyen Duc</Text>
       </View>

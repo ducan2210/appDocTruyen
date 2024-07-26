@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ducan2210.apptruyenv2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -28,6 +29,7 @@
       "eas": {
         "projectId": "8fc58496-b2f2-4196-ae6f-83455306246f"
       }
-    }
+    },
+    "scheme": "apptruyenv2"
   }
 }

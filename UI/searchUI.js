@@ -120,8 +120,12 @@ export default function SearchUI() {
         <>
           <View style={{ marginTop: 15, backgroundColor: '#fff', flexDirection: 'row', alignItems: 'center' }}>
             <Image
-              source={require('../images/Avatar.png')}
-              style={{ width: 58, height: 58, backgroundColor: 'red', borderRadius: 100 }}
+              source={require('../images/Layer.png')}
+              style={{
+                width: 58,
+                height: 58,
+                borderRadius: 100,
+              }}
             />
             <Text style={{ fontWeight: 'bold', fontSize: 22, marginLeft: 21 }}>An Nguyen Duc</Text>
           </View>
@@ -145,7 +149,7 @@ export default function SearchUI() {
           {loading ? (
             <ActivityIndicator size="large" color="#0000ff" style={{ marginTop: 20 }} />
           ) : (
-            <ScrollView showsHorizontalScrollIndicator={false} style={{ marginTop: 25 }}>
+            <ScrollView showsHorizontalScrollIndicator={false} style={{ marginTop: 26 }}>
               {comics.map((comic, index) => (
                 <View key={`${comic.id}-${index}`} style={styles.comicContainer}>
                   <TouchableOpacity
@@ -171,8 +175,12 @@ export default function SearchUI() {
         <View>
           <View style={{ marginTop: 15, backgroundColor: '#fff', flexDirection: 'row', alignItems: 'center' }}>
             <Image
-              source={require('../images/Avatar.png')}
-              style={{ width: 58, height: 58, backgroundColor: 'red', borderRadius: 100 }}
+              source={require('../images/Layer.png')}
+              style={{
+                width: 58,
+                height: 58,
+                borderRadius: 100,
+              }}
             />
             <Text style={{ fontWeight: 'bold', fontSize: 22, marginLeft: 21 }}>An Nguyen Duc</Text>
           </View>

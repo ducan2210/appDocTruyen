@@ -27,6 +27,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
+          <string>apptruyenv2</string>
           <string>com.ducan2210.apptruyenv2</string>
         </array>
       </dict>

@@ -81,7 +81,7 @@ export default function HomeUI() {
       {isLoading ? ( // Hiển thị hiệu ứng tải nếu đang tải dữ liệu
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginTop: 30 }}>
           <ActivityIndicator size="large" color="#0db5ff" />
-          <Text style={{ marginTop: 10 }}>Loading...</Text>
+          <Text style={{ marginTop: 10 }}>Loading....</Text>
         </View>
       ) : (
         <ScrollView showsHorizontalScrollIndicator={false} style={{}}>
@@ -242,8 +242,12 @@ export default function HomeUI() {
     <View style={styles.container}>
       <View style={{ marginTop: 15, backgroundColor: '#fff', flexDirection: 'row', alignItems: 'center' }}>
         <Image
-          source={require('../images/Avatar.png')}
-          style={{ width: 58, height: 58, backgroundColor: 'red', borderRadius: 100 }}
+          source={require('../images/Layer.png')}
+          style={{
+            width: 58,
+            height: 58,
+            borderRadius: 100,
+          }}
         />
         <Text style={{ fontWeight: 'bold', fontSize: 22, marginLeft: 21 }}>An Nguyen Duc</Text>
       </View>
